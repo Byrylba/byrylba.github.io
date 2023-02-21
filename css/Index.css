@@ -51,7 +51,21 @@ body {
 
 header {position:relative;}
 
-footer {margin-top:auto;}
+footer {
+    margin-top:auto;
+    position:relative;
+}
+
+.den{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    color:var(--main-color)
+}
+
+.den:focus, .den:active, .den:hover{
+    color:aqua;
+}
 
 .lang {
     position:absolute;
